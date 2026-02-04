@@ -1,0 +1,56 @@
+{
+  "name": "arduino-esp32",
+  "version": "1.0.0",
+  "author": "ArthurZheng",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openblock-plugin/arduinoEsp32.git"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "npx openblock-registry-cli dev",
+    "build": "npx openblock-registry-cli build",
+    "build:obfuscate": "npx openblock-registry-cli build --obfuscate",
+    "publish": "npx openblock-registry-cli publish",
+    "publish:dry": "npx openblock-registry-cli publish --dry-run",
+    "validate": "npx openblock-registry-cli validate",
+    "i18n:update": "npx openblock-registry-cli i18n update",
+    "lint": "eslint . --ext .js --fix"
+  },
+  "openblock": {
+    "name": "Esp32",
+    "deviceId": "arduinoEsp32",
+    "manufactor": "espressif",
+    "learnMore": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32/index.html",
+    "type": "arduino",
+    "iconURL": "./assets/arduinoEsp32.png",
+    "description": {
+      "formatMessage": {
+        "id": "arduinoEsp32.description",
+        "default": "Wi-Fi & Bluetooth control board with rich functions."
+      }
+    },
+    "bluetoothRequired": false,
+    "serialportRequired": true,
+    "defaultBaudRate": "115200",
+    "internetConnectionRequired": false,
+    "launchPeripheralConnectionFlow": true,
+    "useAutoScan": false,
+    "connectionIconURL": "./assets/arduinoEsp32-illustration.svg",
+    "connectionSmallIconURL": "./assets/arduinoEsp32-small.svg",
+    "main": "./src/arduinoEsp32.js",
+    "translations": "./src/translations.js",
+    "toolchains": "arduino-esp32-esp32",
+    "programMode": ["upload"],
+    "programLanguage": ["block", "cpp"],
+    "tags": ["arduino"],
+    "helpLink": "https://wiki.openblock.cc/general-hardware-guidelines/boards/esp32"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.3.0",
+    "eslint-config-scratch": "^5.0.0",
+    "husky": "^9.0.0"
+  }
+}
