@@ -9,6 +9,7 @@
   },
   "type": "module",
   "scripts": {
+    "prepare": "husky",
     "dev": "npx openblock-registry-cli dev",
     "build": "npx openblock-registry-cli build",
     "build:obfuscate": "npx openblock-registry-cli build --obfuscate",
