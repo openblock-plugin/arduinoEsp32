@@ -24,7 +24,7 @@ export default {
             'arduinoEsp32.description': 'Wi-Fi & Bluetooth control board with rich functions.'
         },
         'zh-cn': {
-            'arduinoEsp32.description': 'Wi-Fi & Bluetooth control board with rich functions.'
+            'arduinoEsp32.description': '功能强大且带有 Wi-Fi 和蓝牙的控制板。'
         },
         'zh-tw': {
             'arduinoEsp32.description': 'Wi-Fi & Bluetooth control board with rich functions.'
