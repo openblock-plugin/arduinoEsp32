@@ -447,46 +447,47 @@ class OpenBlockArduinoEsp32Device {
 
     get ANALOG_PINS_MENU () {
         return [
-            {
-                text: 'IO0',
-                value: Pins.IO0
-            },
-            {
-                text: 'IO2',
-                value: Pins.IO2
-            },
-            {
-                text: 'IO4',
-                value: Pins.IO4
-            },
-            {
-                text: 'IO12',
-                value: Pins.IO12
-            },
-            {
-                text: 'IO13',
-                value: Pins.IO13
-            },
-            {
-                text: 'IO14',
-                value: Pins.IO14
-            },
-            {
-                text: 'IO15',
-                value: Pins.IO15
-            },
-            {
-                text: 'IO25',
-                value: Pins.IO25
-            },
-            {
-                text: 'IO26',
-                value: Pins.IO26
-            },
-            {
-                text: 'IO27',
-                value: Pins.IO27
-            },
+            // Since wifi is enabled by default, none of the pins of ADC block 2 can use the ADC function
+            // {
+            //     text: 'IO0',
+            //     value: Pins.IO0
+            // },
+            // {
+            //     text: 'IO2',
+            //     value: Pins.IO2
+            // },
+            // {
+            //     text: 'IO4',
+            //     value: Pins.IO4
+            // },
+            // {
+            //     text: 'IO12',
+            //     value: Pins.IO12
+            // },
+            // {
+            //     text: 'IO13',
+            //     value: Pins.IO13
+            // },
+            // {
+            //     text: 'IO14',
+            //     value: Pins.IO14
+            // },
+            // {
+            //     text: 'IO15',
+            //     value: Pins.IO15
+            // },
+            // {
+            //     text: 'IO25',
+            //     value: Pins.IO25
+            // },
+            // {
+            //     text: 'IO26',
+            //     value: Pins.IO26
+            // },
+            // {
+            //     text: 'IO27',
+            //     value: Pins.IO27
+            // },
             {
                 text: 'IO32',
                 value: Pins.IO32
