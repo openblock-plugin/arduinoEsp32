@@ -18,16 +18,64 @@
 export default {
     'interface': {
         'en': {
-            'arduinoEsp32.description': 'Wi-Fi & Bluetooth control board with rich functions.'
+            'arduinoEsp32.description': 'Wi-Fi & Bluetooth control board with rich functions.',
+            'arduinoEsp32.examples.blink.description': 'Make the on-board LED blink.',
+            'arduinoEsp32.examples.blink.name': 'Blink',
+            'arduinoEsp32.examples.button.description': 'Light up the LED while a push button is pressed.',
+            'arduinoEsp32.examples.button.name': 'Button',
+            'arduinoEsp32.examples.fade.description': 'Smoothly fade an LED in and out using PWM.',
+            'arduinoEsp32.examples.fade.name': 'Fade',
+            'arduinoEsp32.examples.knob.description': 'Control LED brightness with a potentiometer.',
+            'arduinoEsp32.examples.knob.name': 'Knob',
+            'arduinoEsp32.examples.serialMonitor.description': 'Print analog readings to the Serial Monitor every half second.',
+            'arduinoEsp32.examples.serialMonitor.name': 'Serial Monitor',
+            'arduinoEsp32.examples.servoSweep.description': 'Sweep a servo back and forth between 0 and 180 degrees.',
+            'arduinoEsp32.examples.servoSweep.name': 'Servo Sweep'
         },
         'ru': {
-            'arduinoEsp32.description': 'Wi-Fi & Bluetooth control board with rich functions.'
+            'arduinoEsp32.description': 'Wi-Fi & Bluetooth control board with rich functions.',
+            'arduinoEsp32.examples.blink.description': 'Make the on-board LED blink.',
+            'arduinoEsp32.examples.blink.name': 'Blink',
+            'arduinoEsp32.examples.button.description': 'Light up the LED while a push button is pressed.',
+            'arduinoEsp32.examples.button.name': 'Button',
+            'arduinoEsp32.examples.fade.description': 'Smoothly fade an LED in and out using PWM.',
+            'arduinoEsp32.examples.fade.name': 'Fade',
+            'arduinoEsp32.examples.knob.description': 'Control LED brightness with a potentiometer.',
+            'arduinoEsp32.examples.knob.name': 'Knob',
+            'arduinoEsp32.examples.serialMonitor.description': 'Print analog readings to the Serial Monitor every half second.',
+            'arduinoEsp32.examples.serialMonitor.name': 'Serial Monitor',
+            'arduinoEsp32.examples.servoSweep.description': 'Sweep a servo back and forth between 0 and 180 degrees.',
+            'arduinoEsp32.examples.servoSweep.name': 'Servo Sweep'
         },
         'zh-cn': {
-            'arduinoEsp32.description': 'Wi-Fi & Bluetooth control board with rich functions.'
+            'arduinoEsp32.description': '功能强大且带有 Wi-Fi 和蓝牙的控制板。',
+            'arduinoEsp32.examples.blink.description': 'Make the on-board LED blink.',
+            'arduinoEsp32.examples.blink.name': 'Blink',
+            'arduinoEsp32.examples.button.description': 'Light up the LED while a push button is pressed.',
+            'arduinoEsp32.examples.button.name': 'Button',
+            'arduinoEsp32.examples.fade.description': 'Smoothly fade an LED in and out using PWM.',
+            'arduinoEsp32.examples.fade.name': 'Fade',
+            'arduinoEsp32.examples.knob.description': 'Control LED brightness with a potentiometer.',
+            'arduinoEsp32.examples.knob.name': 'Knob',
+            'arduinoEsp32.examples.serialMonitor.description': 'Print analog readings to the Serial Monitor every half second.',
+            'arduinoEsp32.examples.serialMonitor.name': 'Serial Monitor',
+            'arduinoEsp32.examples.servoSweep.description': 'Sweep a servo back and forth between 0 and 180 degrees.',
+            'arduinoEsp32.examples.servoSweep.name': 'Servo Sweep'
         },
         'zh-tw': {
-            'arduinoEsp32.description': 'Wi-Fi & Bluetooth control board with rich functions.'
+            'arduinoEsp32.description': 'Wi-Fi & Bluetooth control board with rich functions.',
+            'arduinoEsp32.examples.blink.description': 'Make the on-board LED blink.',
+            'arduinoEsp32.examples.blink.name': 'Blink',
+            'arduinoEsp32.examples.button.description': 'Light up the LED while a push button is pressed.',
+            'arduinoEsp32.examples.button.name': 'Button',
+            'arduinoEsp32.examples.fade.description': 'Smoothly fade an LED in and out using PWM.',
+            'arduinoEsp32.examples.fade.name': 'Fade',
+            'arduinoEsp32.examples.knob.description': 'Control LED brightness with a potentiometer.',
+            'arduinoEsp32.examples.knob.name': 'Knob',
+            'arduinoEsp32.examples.serialMonitor.description': 'Print analog readings to the Serial Monitor every half second.',
+            'arduinoEsp32.examples.serialMonitor.name': 'Serial Monitor',
+            'arduinoEsp32.examples.servoSweep.description': 'Sweep a servo back and forth between 0 and 180 degrees.',
+            'arduinoEsp32.examples.servoSweep.name': 'Servo Sweep'
         }
     },
     'extensions': {
